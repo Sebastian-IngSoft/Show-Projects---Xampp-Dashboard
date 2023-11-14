@@ -9,8 +9,6 @@
 
 - Todos los enlaces que redirigen desde el menú de Apache Friends apuntan a `index.html`. Se debe cambiar el atributo `href` en todas las vistas a `index.php`.
 
-¡Listo! Ahora podrás disfrutar de tu nuevo y mejorado panel de XAMPP.
-
 ---
 
 # Show Projects - XAMPP Dashboard
