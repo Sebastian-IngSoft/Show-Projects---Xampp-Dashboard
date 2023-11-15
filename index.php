@@ -77,7 +77,7 @@ $carpetas = array_filter(glob($directorioBase . '/*'), 'is_dir');
 echo '<ul>';
 foreach ($carpetas as $carpeta) {
     $nombreCarpeta = basename($carpeta);
-    if($nombreCarpeta != 'img' && $nombreCarpeta != 'dashboard' && $nombreCarpeta != 'webalizer'$nombreCarpeta != 'xampp'){
+    if($nombreCarpeta != 'img' && $nombreCarpeta != 'dashboard' && $nombreCarpeta != 'webalizer'&& $nombreCarpeta != 'xampp'){
     echo "<li><a href='/$nombreCarpeta'>$nombreCarpeta</a></li>";
     }
 
